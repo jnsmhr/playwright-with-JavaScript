@@ -1,0 +1,23 @@
+{
+  "name": "playwright-with-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnsmhr/playwright-with-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jnsmhr/playwright-with-JavaScript/issues"
+  },
+  "homepage": "https://github.com/jnsmhr/playwright-with-JavaScript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.0"
+  }
+}
