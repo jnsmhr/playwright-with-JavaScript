@@ -1,3 +1,5 @@
+// ** ERROR FILE IS USE FOR ASSERTION OF ALL VALIDATION MESSAGE OR TITLES
+
 module.exports={
     LOGIN:{    
     EMPTY_USER: "Epic sadface: Username is required",
