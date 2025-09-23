@@ -1,5 +1,8 @@
-// @ts-check
+
 import { defineConfig, devices } from '@playwright/test';
+const urls = require('./fixtures/urls');
+const ENV = process.env.ENV || "PROD";
+const BASE_URL = urls [ENV].BASE_URL;
 
 /**
  * Read environment variables from file.
@@ -30,6 +33,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    baseURL: BASE_URL, 
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',

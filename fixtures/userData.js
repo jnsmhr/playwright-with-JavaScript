@@ -1,3 +1,5 @@
+//** THIS IS WHERE ALL THE USER CREDENTAILS ARE STORED**/
+
 module.exports={
     validUser: { username: 'standard_user', password: 'secret_sauce'},
     emptyUser: {username: '', password: ''},
